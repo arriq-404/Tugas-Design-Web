@@ -5,9 +5,9 @@ Latihan Tabel
      <caption>My Table</caption>
      <thead>
           <tr>
-               <th>num1</th>
-               <th>num2</th>
-               <th>num3</th>
+              <th>num1</th>
+              <th>num2</th>
+              <th>num3</th>
           </tr>
      </thead>
      <tbody>

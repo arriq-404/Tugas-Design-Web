@@ -1,27 +1,51 @@
-Latihan Tabel
-4520210055
+<!DOCTYPE HTML>
+<html>
+<head>
+	Nama   : Ath Thaariq Adz Zyad
+</br>
+	NPM    : 4520210055
+</br>
+	Matkul : Desain Web
+</br>
+</br>
+		<title>Table</title>
+		<style>
+			table, tr, th, td {
+			border:2px solid black;
+			border-collapse:collapse;
+			width: 400px;
+			}
+		</style>
+	</head>
 
+	<body>
+		<table>
+			<tr>
+				<th>Nama</th>
+				<th>NPM</th>
+				<th>Alamat</th>
+			</tr>
+			<tr>
+				<td>Safira Anjani</td>
+				<td>4520210002</td>
+        <td>Depok</td>
+			</tr>
+			<tr>
+				<td>Zidan Iqbal</td>
+				<td>4520210042</td>
+        <td>Bandung</td>
+			</tr>
+			<tr>
+				<td>Lintang Yuliningtias</td>
+				<td>4520210057</td>
+				<td>Depok</td>
+			</tr>
+			<tr>
+				<td>Ath Thaariq Adz Zyad</td>
+				<td>4520210055</td>
+				<td>Depok</td>
+			</tr>
+		</table>
+	</body>
 
-<table>
-     <caption>My Table</caption>
-     <thead>
-          <tr>
-              <th>num1</th>
-              <th>num2</th>
-              <th>num3</th>
-          </tr>
-     </thead>
-     <tbody>
-          <tr>
-               <td colspan="2">one</td>
-               <td>two</td>
-               <td>three</td>
-               <td>three and a half</td>
-          </tr>
-          <tr>
-               <td>four</td>
-               <td>five</td>
-               <td>six</td>
-          </tr>
-     </tbody>
-</table>
+</html>

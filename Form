@@ -1,9 +1,20 @@
-Tugas Form
-4520210055
-
+<!DOCTYPE html>
+<head>
+  Nama   : Ath Thaariq Adz Zyad
+</br>
+  NPM    : 4520210055
+</br>
+  Matkul : Desain Web
+</br>
+</br>
+<strong><font color="#1bc4ae"><font size="5">Form Biodata Peserta</font></font></br></strong>
+</br>
+</head>
+</html>
+<title>Form HTML Ath Thaariq Adz Zyad</title>
 <form action="results.html" method="GET" enctype="multipart/form-data">
     <div>
-      <label for="name">Name</label>
+      <label for="name">Nama</label>
       <input type="text" name="name" id="name" required>
   </div>
   <div>
@@ -11,40 +22,40 @@ Tugas Form
     <input type="email" name="email" id="email" required>
   </div>
   <div>
-    <label for="age">Age</label>
+    <label for="age">Umur</label>
     <input type="number" name="age" id="age" min="1" max="200" step="5">
   </div>
   <div>
-    <label for="date">Birthdate</label>
+    <label for="date">Tanggal Lahir</label>
     <input type="date" name="date" id="date" min="2019-06-10">
   </div>
   <div>
-    Favorite Food
+    Makanan Kesukaan
     <div>
-      <label for="banana">Banana</label>
+      <label for="banana">Pisang</label>
       <input type="checkbox" name="banana" id="banana">
     </div>
     <div>
-      <label for="apple">Apple</label>
+      <label for="apple">Apel</label>
       <input type="checkbox" name="apple" id="apple">
     </div>
   </div>
   <div>
-    Gender
+    Kelamin
     <div>
-      <label for="male">Male</label>
+      <label for="male">Laki-Laki</label>
       <input type="radio" name="gender" id="male" value="male">
     </div>
     <div>
-      <label for="female">Female</label>
+      <label for="female">Perempuan</label>
       <input type="radio" name="gender" id="female" value="female">
     </div>
   </div>
   <div>
-    <label for="eyeColor">Eye Color</label>
+    <label for="eyeColor">Warna Mata</label>
     <select name="eyeColor" id="eyeColor" multiple>
-      <option value="Green">Green</option>
-      <option label="Red" value="Red"></option>
+      <option value="Brown">Coklat</option>
+      <option label="Blue" value="Blue">Blue</option>
     </select>
   </div>
   <div>
@@ -57,7 +68,7 @@ Tugas Form
     <input id="file" type="file" name="file">
   </div>
   <div>
-    <label for="phone">Phone</label>
+    <label for="phone">Nomor Telpon</label>
     <input type="tel" name="phone" id="phone">
   </div>
   <div>
@@ -65,7 +76,7 @@ Tugas Form
     <input type="url" name="url" id="url">
   </div>
   <div>
-    <label for="color">Color</label>
+    <label for="color">Warna</label>
     <input type="color" name="color" id="color">
   </div>
   <div>
